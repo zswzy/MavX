@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mavsdk">
+      <UniqueIdentifier>{ae31c839-a417-4d97-a698-b340c7bf4ab0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\mavx_xplmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mavx_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\small_udp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\autopilot.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\connection_result.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\deprecated.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\geometry.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\handle.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\log_callback.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\checksum.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\common.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_actuator_control_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_actuator_output_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_adsb_vehicle.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_ais_vessel.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_altitude.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_attitude.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_attitude_quaternion.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_attitude_quaternion_cov.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_attitude_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_att_pos_mocap.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_auth_key.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_autopilot_state_for_gimbal_device.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_autopilot_version.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_battery_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_button_change.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_capture_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_fov_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_image_captured.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_settings.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_tracking_geo_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_tracking_image_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_camera_trigger.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_canfd_frame.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_can_filter_modify.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_can_frame.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_cellular_config.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_cellular_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_change_operator_control.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_change_operator_control_ack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_collision.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_command_ack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_command_cancel.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_command_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_command_long.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_component_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_component_metadata.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_control_system_state.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_current_event_sequence.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_data_stream.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_data_transmission_handshake.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_debug.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_debug_float_array.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_debug_vect.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_distance_sensor.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_efi_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_encapsulated_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_esc_info.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_esc_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_estimator_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_event.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_extended_sys_state.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_fence_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_file_transfer_protocol.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_flight_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_follow_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_generator_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_device_attitude_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_device_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_device_set_attitude.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_manager_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_manager_set_attitude.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_manager_set_manual_control.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_manager_set_pitchyaw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gimbal_manager_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_global_position_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_global_position_int_cov.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_global_vision_position_estimate.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps2_raw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps2_rtk.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_global_origin.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_inject_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_input.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_raw_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_rtcm_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_rtk.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_gps_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_highres_imu.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_high_latency.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_high_latency2.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_actuator_controls.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_controls.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_gps.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_optical_flow.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_rc_inputs_raw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_sensor.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_state.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hil_state_quaternion.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_home_position.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_hygrometer_sensor.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_isbd_link_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_landing_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_link_node_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_local_position_ned.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_local_position_ned_cov.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_local_position_ned_system_global_offset.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_logging_ack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_logging_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_logging_data_acked.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_entry.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_erase.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_request_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_request_end.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_log_request_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mag_cal_report.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_manual_control.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_manual_setpoint.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_memory_vect.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_message_interval.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_ack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_clear_all.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_count.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_current.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_item.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_item_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_item_reached.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_request.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_request_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_request_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_request_partial_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_set_current.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mission_write_partial_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_mount_orientation.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_named_value_float.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_named_value_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_nav_controller_output.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_obstacle_distance.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_odometry.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_onboard_computer_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_arm_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_authentication.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_basic_id.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_location.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_message_pack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_operator_id.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_self_id.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_system.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_open_drone_id_system_update.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_optical_flow.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_optical_flow_rad.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_orbit_execution_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_ext_ack.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_ext_request_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_ext_request_read.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_ext_set.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_ext_value.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_map_rc.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_request_list.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_request_read.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_set.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_param_value.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_ping.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_play_tune.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_play_tune_v2.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_position_target_global_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_position_target_local_ned.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_power_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_radio_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_raw_imu.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_raw_pressure.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_raw_rpm.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_rc_channels.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_rc_channels_override.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_rc_channels_raw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_rc_channels_scaled.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_request_data_stream.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_request_event.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_resource_request.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_response_event_error.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_safety_allowed_area.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_safety_set_allowed_area.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_imu.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_imu2.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_imu3.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_pressure.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_pressure2.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_scaled_pressure3.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_serial_control.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_servo_output_raw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_setup_signing.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_actuator_control_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_attitude_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_gps_global_origin.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_home_position.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_mode.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_position_target_global_int.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_set_position_target_local_ned.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_sim_state.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_smart_battery_info.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_statustext.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_storage_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_supported_tunes.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_system_time.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_sys_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_terrain_check.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_terrain_data.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_terrain_report.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_terrain_request.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_timesync.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_time_estimate_to_target.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_trajectory_representation_bezier.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_trajectory_representation_waypoints.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_tunnel.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_uavcan_node_info.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_uavcan_node_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_utm_global_position.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_v2_extension.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_vfr_hud.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_vibration.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_vicon_position_estimate.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_video_stream_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_video_stream_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_vision_position_estimate.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_vision_speed_estimate.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_wheel_distance.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_wifi_config_ap.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_winch_status.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\mavlink_msg_wind_cov.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\testsuite.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\common\version.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\mavlink_conversions.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\mavlink_get_info.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\mavlink_helpers.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\mavlink_sha256.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\mavlink_types.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\mavlink.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\mavlink_msg_heartbeat.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\mavlink_msg_protocol_version.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\minimal.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\testsuite.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\minimal\version.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\protocol.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\standard\mavlink.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\standard\standard.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\standard\testsuite.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink\standard\version.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink_address.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavlink_include.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\mavsdk.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\action\action.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\action_server\action_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\arm_authorizer_server\arm_authorizer_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\calibration\calibration.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\camera\camera.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\camera_server\camera_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\component_information\component_information.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\component_information_server\component_information_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\failure\failure.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\follow_me\follow_me.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\ftp\ftp.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\ftp_server\ftp_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\geofence\geofence.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\gimbal\gimbal.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\gripper\gripper.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\info\info.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\log_files\log_files.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\manual_control\manual_control.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\mavlink_passthrough\mavlink_passthrough.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\mission\mission.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\mission_raw\mission_raw.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\mission_raw_server\mission_raw_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\mocap\mocap.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\offboard\offboard.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\param\param.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\param_server\param_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\rtk\rtk.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\server_utility\server_utility.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\shell\shell.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\telemetry\telemetry.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\telemetry_server\telemetry_server.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\transponder\transponder.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\tune\tune.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugins\winch\winch.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\plugin_base.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\server_component.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\server_plugin_base.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\mavsdk\include\mavsdk\system.h">
+      <Filter>mavsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mavx_callbackfunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mavx_framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mavx_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
